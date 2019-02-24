@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hoisting - Programador a bordo</title>
+</head>
+<body>
+  <script>
+    console.log(a);
+    var a = 123;
+    console.log(a);
+
+
+    // console.log(ddd);
+    // let ddd = 21;
+
+    // console.log(idade);
+    // const idade = 27;
+    
+    // console.log(soma(10, 2));
+    // let soma = function(a, b) {
+    //   return a + b;
+    // }
+
+    console.log(soma(10, 5));
+    function soma(a, b) {
+      return a + b;
+    }
+
+
+    function testaHoisting() {
+      console.log('testaHoisting', aaa);
+      var aaa = 123;
+    }
+
+    testaHoisting();
+
+
+    function calcula() {
+      return geraResultado();
+
+      /*
+        Muita lógica de código aqui...
+      */
+      
+      function soma(a, b) {
+        return a + b;
+      }
+
+      function geraResultado() {
+        return soma(10, 5) / 3;
+      }
+
+    }
+
+    console.log(calcula());
+
+
+
+
+
+
+
+
+  </script>
+</body>
+</html>

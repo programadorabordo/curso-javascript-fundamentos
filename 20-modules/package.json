@@ -1,0 +1,33 @@
+{
+  "name": "20-modulos",
+  "version": "1.0.0",
+  "description": "Aula de módulos do canal YouTube Programador a Bordo",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack --watch --config dev.webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/programadorabordo/curso-javascript-fundamentos.git"
+  },
+  "keywords": [
+    "Programador",
+    "a",
+    "bordo",
+    "javascript",
+    "es6",
+    "ayrton",
+    "teshima"
+  ],
+  "author": "Ayrton Teshima, Programador a Bordo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programadorabordo/curso-javascript-fundamentos/issues"
+  },
+  "homepage": "https://github.com/programadorabordo/curso-javascript-fundamentos#readme",
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}

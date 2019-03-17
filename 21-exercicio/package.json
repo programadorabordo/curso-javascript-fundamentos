@@ -1,0 +1,26 @@
+{
+  "name": "workshop-js-basico-front",
+  "version": "1.0.0",
+  "description": "Workshop JS treinamento",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "webpack --watch --config dev.config.js",
+    "start:dev": "webpack-dev-server  --config dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/ayrtonteshima/workshop-js-basico-front.git"
+  },
+  "author": "Ayrton Teshima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ayrtonteshima/workshop-js-basico-front/issues"
+  },
+  "homepage": "https://gitlab.com/ayrtonteshima/workshop-js-basico-front#README",
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
